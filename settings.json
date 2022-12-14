@@ -1,0 +1,158 @@
+{
+  "editor.detectIndentation": false,
+  "editor.formatOnPaste": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "editor.rulers": [],
+  "editor.snippetSuggestions": "top",
+  "editor.trimAutoWhitespace": true,
+  "editor.useTabStops": true,
+  "editor.fontSize": 18,
+  "editor.scrollBeyondLastLine": true,
+  "editor.showFoldingControls": "always",
+  "emmet.includeLanguages": {
+    "*.erb": "html",
+    "ruby": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDelete": false,
+  "window.restoreWindows": "none",
+  "workbench.settings.editor": "json",
+  "workbench.settings.openDefaultSettings": true,
+  "workbench.settings.useSplitJSON": true,
+  "files.hotExit": "off",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "__pycache__": true,
+    "_site": true,
+    ".asset-cache": true,
+    ".bundle": true,
+    ".ipynb_checkpoints": true,
+    ".pytest_cache": true,
+    ".sass-cache": true,
+    ".svn": true,
+    "**/.DS_Store": true,
+    "**/.egg-info": true,
+    "**/.git": true,
+    "build": true,
+    "coverage": true,
+    "log": true,
+    "node_modules": false,
+    "public/packs": true,
+    "tmp": true
+  },
+  "files.watcherExclude": {
+    "**/audits/**": true,
+    "**/coverage/**": true,
+    "**/log/**": true,
+    "**/node_modules/**": false,
+    "**/tmp/**": true,
+    "**/vendor/**": true
+  },
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "python.pythonPath": "~/.pyenv/shims/python",
+  "python.formatting.provider": "yapf",
+  "ruby.lint": {
+    "rubocop": true
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "security.workspace.trust.untrustedFiles": "open",
+  "bracketPairColorizer.depreciation-notice": false,
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "workbench.colorTheme": "One Dark Pro",
+  "cSpell.userWords": [
+    "Appeler",
+    "boites",
+    "Implémenter",
+    "qqch",
+    "résultats",
+    "retournent",
+    "Toujours"
+  ],
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": true
+  },
+  "tabnine.experimentalAutoImports": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+  "editor.wordWrap": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "quokka.colors": {
+    "covered": "#62b455",
+    "errorPath": "#ffa0a0",
+    "errorSource": "#fe536a",
+    "notCovered": "#cccccc",
+    "partiallyCovered": "#d2a032"
+  },
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#228B22",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "github.copilot.enable": {
+    "*": false,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "typescript": false
+  },
+  "workbench.iconTheme": "material-icon-theme"
+}
