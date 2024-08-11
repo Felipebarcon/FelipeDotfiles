@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-  editor = code
+  editor = code -n -w
 	excludefile = /Users/felipebarcon/.gitignore_global
 	excludesfile = /Users/felipebarcon/.gitignore_global
 
@@ -50,9 +50,9 @@
   mergeoptions = --no-edit
 
 [pull]
-  rebase = false
+	rebase = true
 [user]
-	email = felipe.barcon@gmail.com
+	email = felipe.barcon@mail.com
 	name = Felipe Barcon
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
