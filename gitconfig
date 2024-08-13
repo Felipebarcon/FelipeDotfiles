@@ -52,7 +52,7 @@
 [pull]
 	rebase = true
 [user]
-	email = felipe.barcon@mail.com
+	email = felipe.barcon@gmail.com
 	name = Felipe Barcon
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
